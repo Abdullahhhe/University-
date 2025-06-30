@@ -1,0 +1,252 @@
+import "./InforMt.css";
+import { useState } from "react";
+export default function InforMt() {
+  const [show, setShow] = useState(false);
+  const [showt, setShowt] = useState(false);
+  const [showth, setShowth] = useState(false);
+  const togl = () => {
+    setShow(!show);
+  };
+  const toglt = () => {
+    setShowt(!showt);
+  };
+  const toglth = () => {
+    setShowth(!showth);
+  };
+
+  return (
+    <div className="Informt">
+      <div className="mtt">
+        <button onClick={togl}>{show} متطلب كلية ^</button>
+        {show && (
+          <table>
+            <tr>
+              <th>المادة</th>
+              <th>الرمز</th>
+              <th>عدد الساعات</th>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+          </table>
+        )}
+      </div>
+      <div className="mttt">
+        <button onClick={toglt}>{showt} متطلب جامعة  ^</button>
+        {showt && (
+          <table>
+            <tr>
+              <th>المادة</th>
+              <th>الرمز</th>
+              <th>عدد الساعات</th>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+          </table>
+        )}
+      </div>
+      <div className="mttth">
+        <button onClick={toglth}>{showth} متطلب اختصاص^</button>
+        {showth && (
+          <table>
+            <tr>
+              <th>المادة</th>
+              <th>الرمز</th>
+              <th>عدد الساعات</th>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>sinse</td>
+              <td>ppox920</td>
+              <td>3</td>
+            </tr>
+          </table>
+        )}
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td {
+    border: solid 1px black;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: 70px;
+    background-color: deepskyblue;
+    color: rgb(0, 0, 29);
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: deepskyblue;
+    background-color: rgb(0, 0, 29);
+}

@@ -1,0 +1,101 @@
+.Par {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to right, cadetblue, blue);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 80vh;
+    width: 60%;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.448);
+    transition: opacity 1s ease-in-out;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.title {
+    font-size: 34px;
+    margin-right: 20px;
+    margin-left: 200px;
+    font-weight: 900;
+}
+
+.sign {
+    height: 70vh;
+}
+
+ul {
+    list-style: none;
+
+    button {
+        color: cadetblue;
+        background-color: white;
+        transition: 0.5s;
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        font-weight: 800px;
+        font-size: 18px;
+    }
+
+    button:hover {
+        color: white;
+        background-color: rgba(95, 158, 160, 0.805);
+        border: none;
+    }
+}
+
+.a {
+    text-align: center;
+    margin-top: 30px;
+    padding-right: 60px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    list-style: inside;
+}
+
+.une {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    font-style: unset;
+    font-palette: inherit;
+}
+
+@media(max-width:980px){
+    .Par{
+        display: block;
+        height: 100%;
+        width: 100%;
+        img{
+            width:100%;
+            margin-left: 0;
+            padding-top: 20px;
+            height: 540px;
+        }
+        .sign{
+            padding-top: 20px;
+            .title{
+                margin-left: 50%;
+            }
+            button{
+                margin-top: -20px;
+                margin-left: 37%;
+            }
+        }
+    }
+}

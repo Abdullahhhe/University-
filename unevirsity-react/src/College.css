@@ -1,0 +1,94 @@
+.College {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(202, 128, 219, 0.853), rgb(15, 138, 215), rgba(253, 197, 132, 0.811));
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    div {
+        width: 68%;
+        height: 38vh;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 70px;
+        border-radius: 20px;
+        background-image: url('../public/images/photo_2025-03-21_20-03-31.jpg');
+        background-size: 260%;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: blur(0.6px);
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.374);
+        padding-top: 200px;
+        transition: background-size 0.8s ease;
+
+        .Link {
+            text-decoration: none;
+            font-size: 38px;
+            font-weight: 800;
+            margin-top: 100px;
+            filter: blur(-1);
+            -webkit-filter: blur(-1);
+            color: white;
+            transition: 0.5s;
+            width: 100%;
+        }
+    }
+
+    div:hover {
+        filter: blur(0);
+        -webkit-filter: blur(0);
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.73);
+        background-size: 280%;
+
+        .Link {
+            color: blue;
+            background-color: rgba(255, 255, 255, 0.551);
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+    }
+
+    .Enge {
+        background-image: url("../public/images/istockphoto-2150332096-1024x1024.jpg");
+    }
+
+    .pharm {
+        background-image: url("../public/images/istockphoto-2176619433-1024x1024.jpg");
+    }
+
+    .Besn {
+        background-image: url("../public/images/istockphoto-1495656754-1024x1024.jpg");
+    }
+
+    .Low {
+        background-image: url("../public/images/istockphoto-2066551116-1024x1024.jpg");
+    }
+
+    .Phsi {
+        background-image: url("../public/images/istockphoto-2160715528-1024x1024.jpg");
+    }
+
+    .Desn {
+        background-image: url("../public/images/istockphoto-1453957144-1024x1024.jpg");
+    }
+
+    .Artical {
+        background-image: url("../public/images/church-3592874_1280.jpg");
+    }
+}
+
+@media(max-width:980px) {
+    .College {
+        display: block;
+
+        div {
+            width: 100%;
+            height: 300px;
+            margin-left: 0;
+            margin-top: 3px;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.Parent {
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+
+    img {
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+        margin-right: 100px;
+    }
+
+    ul {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+
+        li {
+            margin-left: 100px;
+            color: cadetblue;
+            font-weight: 800;
+            transition: 0.5s;
+            margin-top: 35px;
+            font-size: 16px;
+        }
+
+        li:hover {
+            color: black;
+            font-weight: 900;
+            cursor: pointer;
+        }
+    }
+    input{
+        height:30px;
+        width:100px;
+        margin-top: 40px;
+        border:1px solid cadetblue;
+        padding-left: 30px;
+        letter-spacing: 1px;
+    }
+}
+@media(max-width:980px){
+    .Parent{
+        display: block;
+        img{
+            margin-left: 40%;
+        }
+        ul{
+            li{
+                margin-left: 12%;
+            }
+        }
+        input{
+            margin-left: 40%;
+        }
+    }
+}
